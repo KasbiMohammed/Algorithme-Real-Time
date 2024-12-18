@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduling Simulator</title>
+</head>
+<body>
+    <h1>Scheduling Simulator</h1>
+    <div style="display: flex;">
+        <div style="width: 200px; padding: 10px; border-right: 1px solid #ccc;">
+            <h2>Select Algorithm</h2>
+            <form>
+                <label for="algorithm">Choose scheduling algorithm:</label>
+                <select name="algorithm" id="algorithm">
+                    <option value="First Come First Served">First Come First Served</option>
+                    <option value="Shortest Job First">Shortest Job First</option>
+                    <option value="Rate Monotonic">Rate Monotonic</option>
+                    <option value="Deadline Monotonic">Deadline Monotonic</option>
+                    <option value="Earliest Deadline First">Earliest Deadline First</option>
+                    <option value="Least Laxity First">Least Laxity First</option>
+                </select>
+                <br>
+            </form>
+        </div>
+        <div style="flex-grow: 1; padding: 10px;">
+            <form method="POST">
+                {% csrf_token %}
+                <label for="algorithm">Choose scheduling algorithm:</label>
+                <select name="algorithm" id="algorithm">
+                    <option value="First Come First Served">First Come First Served</option>
+                    <option value="Shortest Job First">Shortest Job First</option>
+                    <option value="Rate Monotonic">Rate Monotonic</option>
+                    <option value="Deadline Monotonic">Deadline Monotonic</option>
+                    <option value="Earliest Deadline First">Earliest Deadline First</option>
+                    <option value="Least Laxity First">Least Laxity First</option>
+                </select>
+                <br>
+                <label for="simulation_time">Simulation Time:</label>
+                <input type="number" name="simulation_time" id="simulation_time" required>
+                <br>
+                <label for="tasks">Tasks (JSON format):</label>
+                <textarea name="tasks" id="tasks" rows="10" required></textarea>
+                <br>
+                <button type="submit">Run Simulation</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
