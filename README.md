@@ -70,6 +70,7 @@ Django fournit une solution web robuste :
 ![image](https://github.com/user-attachments/assets/77d37dd2-9990-4ea4-871b-f7ce36ad1765)
 
 
+
 ## Utilisation
 1. Configurez les tâches dans `tasks.json` ou via les interfaces utilisateur.
 2. Sélectionnez un algorithme pour simuler et obtenir des résultats graphiques ou métriques.
