@@ -41,7 +41,8 @@ Streamlit fournit une interface simple et rapide :
     ```
 2. Ouvrez [http://localhost:8501](http://localhost:8501) pour utiliser l'interface.
    voila en prend par exemple l'algorithme Rm pour les trois Framework.
-   ![WhatsApp Image 2024-12-18 à 18 58 45_6322a5a4](https://github.com/user-attachments/assets/c6558f0c-57d8-4485-be31-e4cbe9bf327f)
+ ![WhatsApp Image 2024-12-18 à 18 55 40_ff68d6dc](https://github.com/user-attachments/assets/617c28c4-661b-4eb3-a507-976c84325a4d)
+
 ![WhatsApp Image 2024-12-18 à 18 58 45_6322a5a4](https://github.com/user-attachments/assets/45ef110a-95fc-4784-852d-75e91ea6e490)
 
 
