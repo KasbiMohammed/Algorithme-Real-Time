@@ -40,6 +40,9 @@ Streamlit fournit une interface simple et rapide :
     streamlit run streamlit_app.py
     ```
 2. Ouvrez [http://localhost:8501](http://localhost:8501) pour utiliser l'interface.
+   ![WhatsApp Image 2024-12-18 à 18 58 45_6322a5a4](https://github.com/user-attachments/assets/c6558f0c-57d8-4485-be31-e4cbe9bf327f)
+![WhatsApp Image 2024-12-18 à 18 58 45_6322a5a4](https://github.com/user-attachments/assets/45ef110a-95fc-4784-852d-75e91ea6e490)
+
 
 ### Utilisation avec Flask
 Flask expose une API RESTful :
@@ -48,6 +51,8 @@ Flask expose une API RESTful :
     python flask_app.py
     ```
 2. Accédez à l'API à [http://127.0.0.1:5000](http://127.0.0.1:5000).
+   ![WhatsApp Image 2024-12-18 à 18 54 51_f4f79a04](https://github.com/user-attachments/assets/b22306ad-6e28-4585-a2e1-92089825c707)
+
 
 ### Utilisation avec Django
 Django fournit une solution web robuste :
@@ -60,6 +65,9 @@ Django fournit une solution web robuste :
     python manage.py runserver
     ```
 3. Accédez à [http://127.0.0.1:8000](http://127.0.0.1:8000).
+![image](https://github.com/user-attachments/assets/5433a494-e599-41a2-b6b0-1d678852de00)
+![image](https://github.com/user-attachments/assets/77d37dd2-9990-4ea4-871b-f7ce36ad1765)
+
 
 ## Utilisation
 1. Configurez les tâches dans `tasks.json` ou via les interfaces utilisateur.
